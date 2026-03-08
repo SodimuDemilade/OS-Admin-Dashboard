@@ -1,0 +1,98 @@
+.settings-page {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.settings-header h1 {
+    font-size: 2rem;
+}
+
+.settings-card {
+    background: #f7f7f7;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.settings-card h2 {
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+.settings-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.avatar-upload {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.avatar-upload .avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+}
+
+button.save-btn {
+    padding: 0.5rem 1rem;
+    background: #2383e2;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+button.save-btn:hover {
+    background: #1761b5;
+}
+
+button.danger-btn {
+    padding: 0.5rem 1rem;
+    background: #e23b3b;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+button.danger-btn:hover {
+    background: #b52e2e;
+}
+
+/* Toggle */
+.toggle {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+}
